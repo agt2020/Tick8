@@ -1,12 +1,12 @@
 <?php
-if ($_POST['username'] == 'admin' && $_POST['username'] != '')
+if ($_POST['username'] == 'agt' && $_POST['username'] != '')
 {
-	header('Location: page.htm');
+	header('Location: home.php');
 	exit;
 }
 else
 {
-	header('Location: Tick8');
+	header('Location: index.htm');
 	exit;
 }
 ?>
