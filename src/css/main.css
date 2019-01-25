@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'iran';
+  src: url('fonts/IRANSans(FaNum)_Light.ttf') format('truetype');
+}
+
+.fa{
+	font-family: 'iran';
+}
